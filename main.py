@@ -37,7 +37,7 @@ class MainApp(QMainWindow,FORM_ClASS):
 #****************************************************************#
     def handle_Ui(self):          # Handle User Interface
         self.setWindowTitle("Video Downloader")
-        self.setFixedSize(800,600)
+        self.setFixedSize(800,570)
 #****************************************************************#
     def handle_btns(self):         # Handle All Buttons
         self.pushButton.clicked.connect(self.Custom_Download)
